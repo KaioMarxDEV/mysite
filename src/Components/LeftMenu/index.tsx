@@ -6,14 +6,15 @@ export function LeftMenu() {
     <div className={styles.leftmenu}>
       <div className={styles.profile}>
         <img src="http://github.com/kaiomarxdev.png" alt="Kaio Marx picture" />
+        
         <strong>Kaio Marx Alves</strong>
         <span>Front End Developer</span>
 
         <div className={styles.socialwrapper}>
-          <a href="https://github.com/KaioMarxDEV" target='_blank'>
+          <a href="https://github.com/KaioMarxDEV" target='_blank' title="Kaio's Github">
             <GithubLogo size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/kaiomarxdev/" target='_blank'>
+          <a href="https://www.linkedin.com/in/kaiomarxdev/" target='_blank' title="Kaio's LinkedIn">
             <LinkedinLogo size={24} />
           </a>
         </div>
