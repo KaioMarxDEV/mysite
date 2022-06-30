@@ -1,0 +1,47 @@
+:root {
+  --gold-500: #FFB400;
+  --gold-500-dark: rgba(255, 180, 0, 0.95);
+
+  --gray-100: #767676;
+  --gray-200: #3A3B3C;
+  --gray-300: #2B2B2B;
+  --gray-500: #242526;
+  --gray-600: #18191A;
+
+  --white: #FFFFFF;
+  --white-100: #F0F0F6;
+  --white-300: #E4E6EB;
+}
+
+:focus {
+  outline: transparent !important;
+}
+
+* {
+  font-variant-ligatures: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+body {
+  width: 100%;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5625rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--white-300); 
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
