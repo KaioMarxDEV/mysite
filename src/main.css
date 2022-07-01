@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased box-border m-0 p-0;
+  }
+  
+  div {
+    @apply block;
+  }
+  
+  body {
+    @apply w-full leading-6 tracking-normal bg-gray-200;
+  }
+}
