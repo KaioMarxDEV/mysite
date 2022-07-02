@@ -1,12 +1,13 @@
 import { LeftMenu } from './Components/LeftMenu';
-import { MainBanner } from './Components/MainBanner';
+import { Main } from './Components/Main';
+import { NavBar } from './Components/NavBar';
 
 export function App() {
   return (
-    <div className='w-screen grid grid-cols-[305px_1fr_108px]'>
+    <div className='w-full grid grid-cols-[305px_1fr_108px] gap-7 scroll-smooth'>
       <LeftMenu />
-      <MainBanner />
-      <nav>nav bar looser</nav>
+      <Main />
+      <NavBar />
     </div>
   )
 }

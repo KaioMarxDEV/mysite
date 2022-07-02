@@ -4,7 +4,7 @@ import { SkillBar } from '../SkillBar';
 
 export function LeftMenu() {
   return (
-    <div className='w-full bg-white mt-0 ml-0 rounded-lg pt-[3.124rem] pr-[2.875rem] pb-[1.56rem] pl-[2.5rem] flex flex-col'>
+    <div className='w-full h-[1315px] bg-white mt-0 ml-0 rounded-lg pt-[3.124rem] pr-[2.875rem] pb-[1.56rem] pl-[2.5rem] flex flex-col'>
       <div className='w-full flex flex-col items-center justify-center'>
         <img className='h-[9.3rem] w-[9.3rem] block rounded-full mb-[1.93rem] outline outline-[#FFB400]' src="http://github.com/kaiomarxdev.png" alt="Kaio Marx picture" />
         
