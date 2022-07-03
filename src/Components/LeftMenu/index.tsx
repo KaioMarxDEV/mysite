@@ -85,13 +85,13 @@ export function LeftMenu() {
         <ExtraSkills />
       </div>
 
-      <div className="mt-6 w-full hover:text-white hover:shadow-[0px_0px_10px] hover:shadow-[#FFB400]">
+      <div className="mt-6 w-full">
         <a
           href="https://www.google.com"
           target={"_blank"}
-          className="flex items-center justify-center bg-[#FFB400]  py-[10px] px-[40px]"
+          className="flex w-full items-center justify-center rounded-lg bg-[#FFB400] py-[10px] px-[40px] hover:text-white  hover:shadow-[0px_0px_10px] hover:shadow-[#FFB400]"
         >
-          <span className="mr-5 text-[14px] font-semibold">DOWNLOAD CV</span>
+          <span className="mr-3 text-[14px] font-semibold">DOWNLOAD CV</span>
           <DownloadSimple size={16} />
         </a>
       </div>
