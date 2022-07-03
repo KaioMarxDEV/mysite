@@ -9,7 +9,7 @@ import { SkillBar } from "../SkillBar";
 
 export function LeftMenu() {
   return (
-    <div className="mt-0 ml-0 flex h-[1315px] w-full flex-col rounded-lg bg-white pt-[3.124rem] pr-[2.875rem] pb-[1.56rem] pl-[2.5rem]">
+    <div className="mt-0 ml-0 flex w-full flex-col rounded-lg bg-white pt-[3.124rem] pr-[2.875rem] pb-[1.56rem] pl-[2.5rem]">
       <div className="flex w-full flex-col items-center justify-center">
         <img
           className="mb-[1.93rem] block h-[9.3rem] w-[9.3rem] rounded-full outline outline-[#FFB400]"
@@ -21,7 +21,7 @@ export function LeftMenu() {
           Kaio Marx Alves{" "}
         </strong>
         <span className="mb-[0.93rem] block text-base text-gray-500">
-          Front End Developer
+          Front-End Developer
         </span>
 
         <div className="flex w-full justify-evenly border-b border-solid pb-6">

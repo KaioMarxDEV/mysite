@@ -4,7 +4,8 @@ export function MainBanner() {
       <main className="w-full">
         <h1 className="mb-[18px] text-5xl text-black">
           I'm Kaio Marx <br />
-          <strong className="text-[#FFB400]">Front-End</strong> Developer
+          <strong className="font-lob text-[#FFB400]">Front-End</strong>{" "}
+          Developer
         </h1>
         <p className="mb-6 text-base text-[#767676]">
           adasdfasdfasdfasdfa dfasdfasdfasdfasd adasdfasdfasdfasdfa

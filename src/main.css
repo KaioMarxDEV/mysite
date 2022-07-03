@@ -12,6 +12,6 @@
   }
 
   body {
-    @apply w-full bg-gray-200 leading-6 tracking-normal;
+    @apply w-full bg-gray-200 font-roboto leading-6 tracking-normal;
   }
 }
