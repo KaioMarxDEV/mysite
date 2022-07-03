@@ -1,5 +1,3 @@
 export function NavBar() {
-  return (
-    <nav className="border-box bg-white h-[1315px] w-full">dale</nav>
-  )
+  return <nav className="border-box h-[1315px] w-full bg-white">dale</nav>;
 }
