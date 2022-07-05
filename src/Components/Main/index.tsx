@@ -1,9 +1,10 @@
 import { ArrowsLeftRight, Code } from "phosphor-react";
+import { Education } from "../Education";
 
 export function Main() {
   return (
     <div className="container mx-auto mt-8 w-full">
-      <header className="flex items-center justify-between rounded-lg bg-white py-8 px-6 drop-shadow-md">
+      <header className="mb-32 flex items-center justify-between rounded-lg bg-white py-8 px-6 drop-shadow-md">
         <div className="inline-block">
           <h1 className=" text-5xl">
             I'm Kaio Marx
@@ -29,6 +30,10 @@ export function Main() {
           </p>
         </div>
       </header>
+
+      <section id="education">
+        <Education />
+      </section>
     </div>
   );
 }
