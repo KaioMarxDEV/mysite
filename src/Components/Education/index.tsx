@@ -1,7 +1,7 @@
 export function Education() {
   return (
     <div className="mt-20 flex flex-col">
-      <h2 className="mb-[50px] text-center text-4xl font-bold">Education</h2>
+      <h2 className="mb-[50px] text-center text-4xl font-bold ">Education</h2>
       <div className="flex w-full flex-col rounded-lg bg-white p-[51px_29px_38px_38px] drop-shadow-md">
         <div>
           <div className="flex flex-row  pb-8">

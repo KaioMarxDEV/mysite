@@ -12,7 +12,7 @@
   }
 
   body {
-    @apply w-full bg-gray-200 font-inter leading-6 tracking-normal;
+    @apply w-full scroll-smooth bg-gray-200 font-inter leading-6 tracking-normal;
   }
 }
 

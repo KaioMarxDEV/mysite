@@ -1,4 +1,5 @@
 import { ArrowsLeftRight, Code } from "phosphor-react";
+import { Contact } from "../Contact";
 import { Education } from "../Education";
 
 export function Main() {
@@ -33,6 +34,9 @@ export function Main() {
 
       <section id="education">
         <Education />
+      </section>
+      <section id="direct contact">
+        <Contact />
       </section>
     </div>
   );
