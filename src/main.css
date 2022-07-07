@@ -7,12 +7,16 @@
     @apply m-0 box-border p-0 antialiased;
   }
 
+  html {
+    @apply scroll-smooth
+  }
+
   div {
     @apply block;
   }
 
   body {
-    @apply w-full scroll-smooth bg-gray-200 font-inter leading-6 tracking-normal;
+    @apply w-full bg-gradient-to-r from-gray-300 to-my-blue/60 font-inter leading-6 tracking-normal;
   }
 }
 

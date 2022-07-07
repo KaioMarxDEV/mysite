@@ -1,27 +1,27 @@
 export function Education() {
   return (
-    <div className="mt-20 flex flex-col">
-      <h2 className="mb-[50px] text-center text-4xl font-bold ">Education</h2>
+    <div id="education" className="my-52 flex flex-col">
+      <h2 className="mb-[50px] text-center text-4xl font-bold text-gray-700 drop-shadow-xl">Education</h2>
       <div className="flex w-full flex-col rounded-lg bg-white p-[51px_29px_38px_38px] drop-shadow-md">
         <div>
           <div className="flex flex-row  pb-8">
             <div className="flex w-80 flex-col border-r border-dashed border-gray-300">
-              <strong className="mb-6 text-lg text-[#2B2B2B]">
-                Google Career Certificate
+              <strong className="mb-6 text-lg text-[#0668E1]">
+                META Professional Certificate
               </strong>
               <div>
                 <span>Student</span>{" "}
-                <span className="ml-6 bg-[#FFB400] p-1 text-white">
-                  Completed
+                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
+                  In-progress
                 </span>
               </div>
             </div>
             <div className="ml-4 flex flex-1 flex-col">
-              <strong className="mb-6 text-lg text-[#2B2B2B]">UX design</strong>
+              <strong className="mb-6 text-lg text-[#2B2B2B]">Front-end Developer</strong>
               <p>
-                UX designers make technology easier and more enjoyable for
-                people to use. They design products and tools so that they are
-                more useful and accessible for users.
+                Create a responsive website using HTML to structure content, CSS 
+                to handle visual style, and JavaScript to develop interactive experiences.<br />
+                Learn to use React in relation to Javascript libraries and frameworks by created the framework. 
               </p>
             </div>
           </div>
@@ -32,7 +32,7 @@ export function Education() {
               </strong>
               <div>
                 <span>Student</span>{" "}
-                <span className="ml-6 bg-[#FFB400] p-1 text-white">
+                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
                   Completed
                 </span>
               </div>
@@ -56,7 +56,7 @@ export function Education() {
               </strong>
               <div>
                 <span>Student</span>{" "}
-                <span className="ml-6 bg-[#FFB400] p-1 text-white">
+                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
                   GPA: 3.4/4.0
                 </span>
               </div>
