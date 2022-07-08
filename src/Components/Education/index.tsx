@@ -55,7 +55,7 @@ export function Education() {
               </p>
             </div>
           </div>
-          <div className="mt-8 flex flex-row  pb-8">
+          <div className="flex flex-row  pb-8">
             <div className="flex w-80 flex-col border-r border-dashed border-gray-300">
               <strong className="mb-6 text-lg text-[#2B2B2B]">
                 Rocketseat
@@ -79,7 +79,7 @@ export function Education() {
               </p>
             </div>
           </div>
-          <div className="mt-8 flex flex-row  pb-8">
+          <div className="flex flex-row  pb-8">
             <div className="flex w-80 flex-col border-r border-dashed border-gray-300">
               <strong className="mb-6 text-lg text-[#2B2B2B]">
                 Universidade Potiguar - UNP

@@ -3,6 +3,7 @@ import { Education } from "./Components/Education";
 import { Footer } from "./Components/Footer";
 import { Greetings } from "./Components/Greetings";
 import { Header } from "./Components/Header";
+import { Projects } from "./Components/Projects";
 
 export function App() {
   return (
@@ -15,6 +16,9 @@ export function App() {
       </section>
       <section className="scroll-mt-8" id="education">
         <Education />
+      </section>
+      <section id="projects">
+        <Projects />
       </section>
       <section className="scroll-mt-8" id="hello">
         <Contact />

@@ -5,7 +5,7 @@ import kaio from '../../Assets/kaio.jpeg';
 
 export function Greetings() {
   return (
-    <div className="mt-28 flex flex-row items-center justify-between  rounded-lg">
+    <div className="mt-28 flex flex-row items-center justify-between">
       <div className="m-12 max-w-[34rem] ">
         <div className="flex flex-row">
           <strong className="text-3xl leading-6 text-my-blue">Hi, I'm Kaio</strong>
