@@ -21,7 +21,11 @@ const customStyles = {
 const validationSchema = Yup.object().shape({
   user_name: Yup.string().required(),
   user_email: Yup.string().email().required(),
-  message: Yup.string()
+  message: Yup.string(),
+  user_id: Yup.string(),
+  template_id: Yup.string(),
+  service_id: Yup.string(),
+  contact_number: Yup.number(),
 })
 
 export function Contact() {
@@ -56,8 +60,7 @@ export function Contact() {
     const isValid = await validationSchema.validate(newEmail)
 
     if (!isValid) {
-      alert('Your information are not correct')
-      throw new Error('Your information are not correct')
+      alert('Please retry with correct information.')
     }
 
     try {
@@ -85,7 +88,7 @@ export function Contact() {
   }
   
   return (
-    <div className="my-36 max-w-full bg-gradient-to-b from-white/20 to-white/60 rounded-lg flex flex-col items-center justify-center py-28">
+    <div className="my-36 max-w-full backdrop-blur-md drop-shadow-md rounded-lg flex flex-col items-center justify-center py-28">
       <div className="max-w-[40rem] flex flex-col items-center">
         <strong className="text-4xl text-center leading-6 block">
           Interested{' '} 
@@ -98,7 +101,7 @@ export function Contact() {
           On the lookout for a fast learner developer that shows passion in their work? 
           Are you interested in collaborating? I'd love to hear from you!
         </span>
-        <button onClick={handleModalOpen} className="mt-8 w-1/2 bg-my-blue/75 px-8 py-3 cursor-pointer hover:bg-my-blue rounded-3xl font-semibold text-gray-100 text-center">
+        <button onClick={handleModalOpen} className="mt-8 w-1/2 px-8 py-3 cursor-pointer rounded-3xl font-semibold text-center text-my-blue border border-my-blue hover:bg-my-blue hover:text-white hover:border-0 transition">
           Email Me
         </button>
       </div>

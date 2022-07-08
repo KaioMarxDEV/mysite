@@ -1,13 +1,13 @@
 export function Education() {
   return (
-    <div id="education" className="my-52 flex flex-col">
+    <div id="education" className="my-52 flex flex-col items-center">
       <div className="mb-20 flex flex-col items-center">
-        <h2 className="mb-4 text-center text-5xl font-bold text-gray-700 drop-shadow-xl">Education</h2>
-        <span className="text-center">
+        <h2 className="mb-4 text-center text-5xl font-bold text-black drop-shadow-xl">Education</h2>
+        <span className="text-center text-gray-900">
           Some of the education that I took, Based on college, certificates, etc.
         </span>
       </div>
-      <div className="flex w-full flex-col rounded-lg bg-white p-[51px_29px_38px_38px] drop-shadow-md">
+      <div className="flex w-[85%] flex-col rounded-lg bg-white p-[51px_29px_38px_38px] drop-shadow-md">
         <div>
           <div className="flex flex-row  pb-8">
             <div className="flex w-80 flex-col border-r border-dashed border-gray-300">

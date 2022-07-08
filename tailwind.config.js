@@ -22,6 +22,7 @@ module.exports = {
     fontFamily: {
       inter: ["Inter"],
       lob: ["Lobster"],
+      rc: ["Roboto Condensed"]
     },
     extend: {
       animation: {
