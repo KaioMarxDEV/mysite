@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div id="socials" className="flex flex-col items-center border-t-2 border-my-blue">
+    <div id="socials" className="flex flex-col items-center border-t-2 border-dashed border-my-blue">
       <div className="my-12 flex flex-row items-center justify-evenly py-4 px-12">
         <h1 className="text-my-blue px-4 py-2 text-3xl font-bold">
           Leaving? Visit my social medias {"=>"}

@@ -5,6 +5,9 @@ import Modal from 'react-modal';
 
 const customStyles = {
   content: {
+    borderRadius: '12px',
+    padding: 0,
+    margin: 0,
     top: '50%',
     left: '50%',
     right: 'auto',
@@ -68,7 +71,7 @@ export function Contact() {
   }
   
   return (
-    <div className="my-52 max-w-full bg-gradient-to-b from-white/20 to-white/60 rounded-lg flex flex-col items-center justify-center py-28">
+    <div className="my-36 max-w-full bg-gradient-to-b from-white/20 to-white/60 rounded-lg flex flex-col items-center justify-center py-28">
       <div className="max-w-[40rem] flex flex-col items-center">
         <strong className="text-4xl text-center leading-6 block">
           Interested{' '} 
@@ -89,33 +92,35 @@ export function Contact() {
           isOpen={modalStatus}
           onRequestClose={handleModalClose}
           contentLabel="email submit"
-          className='top-1/2 left-1/2 right-auto bottom-auto -mr-1/2 translate-x-[35%] translate-y-[15%]'
+          style={customStyles}
           ariaHideApp={false}
         >
-          <form style={{ borderImageSlice: 1}} className="w-[35rem] p-6 bg-white border-[5px] border-solid border-transparent flex flex-col" onSubmit={handleSubmit}>
-            <h2 className="mb-12 text-3xl font-bold text-gray-900">
-              Leave Me a{' '} 
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff4b1f] to-[#ff9068]">
-                Message
-              </span>
-            </h2>
-            <div className="flex flex-col items-start mb-4">
-              <strong>Your Full Name (Required)</strong>
-              <input onChange={handleInputName} className="bg-gray-200 rounded-lg text-gray-700 p-2 outline-none w-full mt-2" type="text" />
+          <form className="w-[35rem] rounded-xl bg-gradient-to-r from-[#7928ca] to-[#ff0080] p-1" onSubmit={handleSubmit}>
+            <div className='bg-white w-full h-full p-6 rounded-xl flex flex-col'>
+              <h2 className="mb-12 text-3xl font-bold text-gray-900">
+                Leave Me a{' '} 
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff4b1f] to-[#ff9068]">
+                  Message
+                </span>
+              </h2>
+              <div className="flex flex-col items-start mb-4">
+                <strong>Your Full Name (Required)</strong>
+                <input onChange={handleInputName} className="bg-gray-200 rounded-lg text-gray-700 p-2 outline-none w-full mt-2" type="text" />
+              </div>
+              <div className="flex flex-col items-start mb-4">
+                <strong>Your Email (Required)</strong>
+                <input onChange={handleInputEmail} className="bg-gray-200 rounded-lg text-gray-700 p-2 outline-none w-full mt-2" type="text" />
+              </div>
+              <div className="flex flex-col items-start mb-4">
+                <strong>Message</strong>
+                <textarea onChange={handleInputMessage} className="h-[13rem] resize-none rounded-lg bg-gray-200 text-gray-700 p-2 outline-none w-full mt-2" />
+              </div>
+              <button className="mt-1 p-2 bg-my-blue/75 hover:bg-my-blue rounded-lg text-xl font-bold text-white/90 hover:text-white" type="submit">
+                Send this message
+              </button>
             </div>
-            <div className="flex flex-col items-start mb-4">
-              <strong>Your Email (Required)</strong>
-              <input onChange={handleInputEmail} className="bg-gray-200 rounded-lg text-gray-700 p-2 outline-none w-full mt-2" type="text" />
-            </div>
-            <div className="flex flex-col items-start mb-4">
-              <strong>Message</strong>
-              <textarea onChange={handleInputMessage} className="h-[13rem] resize-none rounded-lg bg-gray-200 text-gray-700 p-2 outline-none w-full mt-2" />
-            </div>
-            <button className="mt-1 p-2 bg-my-blue/75 hover:bg-my-blue rounded-lg text-xl font-bold text-white/90 hover:text-white" type="submit">
-              Send this message
-            </button>
           </form>
-        </Modal>
+      </Modal>
     </div>
   )
 }
