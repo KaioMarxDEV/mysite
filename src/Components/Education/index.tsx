@@ -6,8 +6,11 @@ export function Education() {
         <div>
           <div className="flex flex-row  pb-8">
             <div className="flex w-80 flex-col border-r border-dashed border-gray-300">
-              <strong className="mb-6 text-lg text-[#0668E1]">
-                META Professional Certificate
+              <strong className="mb-6 text-lg">
+                <strong className="text-[#0668E1]">
+                  META
+                </strong>{' '}
+                Professional Certificate
               </strong>
               <div>
                 <span>Student</span>{" "}
@@ -22,6 +25,33 @@ export function Education() {
                 Create a responsive website using HTML to structure content, CSS 
                 to handle visual style, and JavaScript to develop interactive experiences.<br />
                 Learn to use React in relation to Javascript libraries and frameworks by created the framework. 
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row  pb-8">
+            <div className="flex w-80 flex-col border-r border-dashed border-gray-300">
+              <strong className="mb-6 text-lg">
+                <span className="text-[#4285f4]">G</span>
+                <span className="text-[#ea4335]">o</span>
+                <span className="text-[#fbbc05]">o</span>
+                <span className="text-[#4285f4]">g</span>
+                <span className="text-[#34a853]">l</span>
+                <span className="text-[#ea4335]">e</span>{' '}
+                Professional Certificate
+              </strong>
+              <div>
+                <span>Student</span>{" "}
+                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
+                  In-progress
+                </span>
+              </div>
+            </div>
+            <div className="ml-4 flex flex-1 flex-col">
+              <strong className="mb-6 text-lg text-[#2B2B2B]">UX Design</strong>
+              <p>
+                Follow the design process: empathize with users, define pain points, 
+                ideate solutions, create wireframes and prototypes, test and iterate on designs<br />
+                Apply foundational UX concepts, like user-centered design, accessibility, and equity-focused design
               </p>
             </div>
           </div>

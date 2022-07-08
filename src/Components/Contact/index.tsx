@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { ChangeEvent, FormEvent, useState } from "react";
+import * as Yup from "yup";
 
 import Modal from 'react-modal';
 
@@ -16,6 +17,12 @@ const customStyles = {
     transform: 'translate(-50%, -50%)',
   },
 };
+
+const validationSchema = Yup.object().shape({
+  user_name: Yup.string().required(),
+  user_email: Yup.string().email().required(),
+  message: Yup.string()
+})
 
 export function Contact() {
   const [name, setName] = useState('')
@@ -45,7 +52,14 @@ export function Contact() {
       user_email:email,
       message
     }
-    
+
+    const isValid = await validationSchema.validate(newEmail)
+
+    if (!isValid) {
+      alert('Your information are not correct')
+      throw new Error('Your information are not correct')
+    }
+
     try {
       await axios({
         method: "post",

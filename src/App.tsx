@@ -19,7 +19,9 @@ export function App() {
       <section className="scroll-mt-8" id="hello">
         <Contact />
       </section>
-      <Footer />
+      <section className="scroll-mt-8" id="socials">
+        <Footer />
+      </section>
     </div>
   );
 }

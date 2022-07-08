@@ -29,7 +29,7 @@ export function Header() {
             </a>
           </li>
         </ul>
-        <div className="block">
+        <div className="block animate-pulse hover:animate-none">
           <a href="#hello" className="flex flex-row items-center ml-4 bg-my-blue/75 px-8 py-3 cursor-pointer hover:bg-my-blue rounded-3xl font-semibold text-gray-100">
             Say Hello
             <HandWaving className="ml-2" size={20} />
