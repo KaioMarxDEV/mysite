@@ -19,7 +19,7 @@ export function Education() {
               </strong>
               <div>
                 <span>Student</span>{" "}
-                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
+                <span className="ml-6 bg-my-blue rounded-[30px] px-2 p-1 text-white">
                   In-progress
                 </span>
               </div>
@@ -46,7 +46,7 @@ export function Education() {
               </strong>
               <div>
                 <span>Student</span>{" "}
-                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
+                <span className="ml-6 bg-my-blue rounded-[30px] px-2 p-1 text-white">
                   In-progress
                 </span>
               </div>
@@ -67,7 +67,7 @@ export function Education() {
               </strong>
               <div>
                 <span>Student</span>{" "}
-                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
+                <span className="ml-6 bg-my-blue rounded-[30px] px-2 p-1 text-white">
                   Completed
                 </span>
               </div>
@@ -91,7 +91,7 @@ export function Education() {
               </strong>
               <div>
                 <span>Student</span>{" "}
-                <span className="ml-6 bg-my-gold rounded-[30px] px-2 p-1 text-white">
+                <span className="ml-6 bg-my-blue rounded-[30px] px-2 p-1 text-white">
                   GPA: 3.4/4.0
                 </span>
               </div>
