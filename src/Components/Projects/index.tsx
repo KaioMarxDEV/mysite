@@ -11,7 +11,7 @@ export function Projects() {
       </div>
       <div className="mt-20 flex flex-row items-center justify-between">
         <div className="max-w-[34rem]">
-
+          
         </div>
       </div>
     </div>
