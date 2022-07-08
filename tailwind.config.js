@@ -16,6 +16,8 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
+      indigo: colors.indigo,
+      pink: colors.pink,
     },
     fontFamily: {
       inter: ["Inter"],

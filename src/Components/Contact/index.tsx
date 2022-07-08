@@ -70,7 +70,13 @@ export function Contact() {
   return (
     <div className="my-52 max-w-full bg-gradient-to-b from-white/20 to-white/60 rounded-lg flex flex-col items-center justify-center py-28">
       <div className="max-w-[40rem] flex flex-col items-center">
-        <strong className="text-4xl text-center leading-6 block">Interested working with me?</strong>
+        <strong className="text-4xl text-center leading-6 block">
+          Interested{' '} 
+          <span className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-500'>
+            working
+          </span>{' '}
+          with me?
+        </strong>
         <span className="mt-4 text-xl text-center block">
           On the lookout for a fast learner developer that shows passion in their work? 
           Are you interested in collaborating? I'd love to hear from you!
@@ -83,16 +89,16 @@ export function Contact() {
           isOpen={modalStatus}
           onRequestClose={handleModalClose}
           contentLabel="email submit"
-          style={customStyles}
+          className='top-1/2 left-1/2 right-auto bottom-auto -mr-1/2 translate-x-[35%] translate-y-[15%]'
           ariaHideApp={false}
         >
-          <h2 className="mb-12 text-3xl font-bold text-gray-900">
-            Leave Me a{' '} 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff4b1f] to-[#ff9068]">
-              Message
-            </span>
-          </h2>
-          <form className="w-[35rem] p-6 bg-white flex flex-col" onSubmit={handleSubmit}>
+          <form style={{ borderImageSlice: 1}} className="w-[35rem] p-6 bg-white border-[5px] border-solid border-transparent flex flex-col" onSubmit={handleSubmit}>
+            <h2 className="mb-12 text-3xl font-bold text-gray-900">
+              Leave Me a{' '} 
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff4b1f] to-[#ff9068]">
+                Message
+              </span>
+            </h2>
             <div className="flex flex-col items-start mb-4">
               <strong>Your Full Name (Required)</strong>
               <input onChange={handleInputName} className="bg-gray-200 rounded-lg text-gray-700 p-2 outline-none w-full mt-2" type="text" />
