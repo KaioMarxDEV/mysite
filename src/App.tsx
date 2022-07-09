@@ -8,7 +8,7 @@ import { Skills } from "./Components/Skills";
 
 export function App() {
   return (
-    <div className="max-w-7xl my-0 mx-auto h-screen">
+    <div className="max-w-5xl my-0 mx-auto h-screen">
       <section className="scroll-mt-2">
         <Header />
       </section>

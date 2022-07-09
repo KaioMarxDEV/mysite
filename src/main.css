@@ -19,9 +19,3 @@
     @apply w-full bg-[#f1f2f5] font-inter leading-6 tracking-normal;
   }
 }
-
-@keyframes one-spin {
-  to {
-    transform: rotate(180deg);
-  }
-}

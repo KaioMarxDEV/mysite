@@ -7,7 +7,7 @@ export function Education() {
           Some of the education that I took, Based on college, certificates, etc.
         </span>
       </div>
-      <div className="flex w-[85%] flex-col rounded-lg bg-white p-[51px_29px_38px_38px] drop-shadow-md">
+      <div className="flex w-full flex-col rounded-lg bg-white p-[51px_29px_38px_38px] drop-shadow-md">
         <div>
           <div className="flex flex-row  pb-8">
             <div className="flex w-80 flex-col border-r border-dashed border-gray-300">
