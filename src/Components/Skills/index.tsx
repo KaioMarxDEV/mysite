@@ -43,7 +43,7 @@ export function Skills() {
             {backendSkills.map(skill => (
               <li key={skill.id} className="mb-2 flex flex-row items-center">
                 <CheckCircle className="mr-1 text-my-gold" size={20} />
-                <span className="text-gray-900">{skill.name}</span>
+                <span className="text-gray-900 font-rc">{skill.name}</span>
               </li>
             ))}
           </ul>
@@ -60,7 +60,7 @@ export function Skills() {
             {frontSkills.map(skill => (
               <li key={skill.id} className="mb-2 flex flex-row items-center">
                 <CheckCircle className="mr-1 text-my-blue" size={20} />
-                <span className="text-gray-900">{skill.name}</span>
+                <span className="text-gray-900 font-rc">{skill.name}</span>
               </li>
             ))}
           </ul>
@@ -77,7 +77,7 @@ export function Skills() {
             {devopsSkills.map(skill => (
               <li key={skill.id} className="mb-2 flex flex-row items-center">
                 <CheckCircle className="mr-1 text-my-green" size={20} />
-                <span className="text-gray-900">{skill.name}</span>
+                <span className="text-gray-900 font-rc">{skill.name}</span>
               </li>
             ))}
           </ul>

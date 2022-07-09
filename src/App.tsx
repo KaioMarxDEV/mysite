@@ -15,12 +15,32 @@ export function App() {
       <section className="scroll-mt-8" id="home">
         <Greetings />
       </section>
+      <div className="mt-56 flex flex-row items-center justify-between rounded-lg drop-shadow-xl">
+        <div className="h-2 w-1/3 bg-gray-500 rounded-sm" />
+        <h3 className="w-full text-center font-calis text-5xl text-indigo-800">
+          "Do what you LOVE<br />
+          and love what you do"
+        </h3>
+        <div className="h-2 w-1/3 bg-gray-500 rounded-sm" />
+      </div>
       <section className="scroll-mt-8" id="skills">
         <Skills />
       </section>
+      <div className="flex flex-col items-center drop-shadow-xl">
+        <h3 className="my-10 text-center mx-auto font-calis text-5xl text-indigo-800">
+          "Who has a mission, a why, <br />
+          overcomes any how."
+        </h3>
+      </div>
       <section className="scroll-mt-8" id="education">
         <Education />
       </section>
+      <div className="flex flex-col items-center rounded-lg drop-shadow-xl">
+        <h3 className="my-10 text-center mx-auto font-calis text-5xl text-indigo-800">
+          "You cannot build a reputation on what<br />
+          you are going to do."
+        </h3>
+      </div>
       <section className="scroll-mt-8" id="projects">
         <Projects />
       </section>

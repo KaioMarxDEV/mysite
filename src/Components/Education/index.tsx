@@ -1,6 +1,6 @@
 export function Education() {
   return (
-    <div id="education" className="my-52 flex flex-col items-center">
+    <div id="education" className="my-56 flex flex-col items-center">
       <div className="mb-20 flex flex-col items-center">
         <h2 className="mb-4 text-center text-5xl font-bold text-black drop-shadow-xl">Education</h2>
         <span className="text-center text-gray-900">

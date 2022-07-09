@@ -6,7 +6,7 @@ export function Projects() {
   }
 
   return (
-    <div className="mt-28 w-full flex flex-col items-center">
+    <div className="my-56 w-full flex flex-col items-center">
       <div className="flex flex-col items-center">
         <h1 className="mb-4 text-center text-5xl font-bold text-black drop-shadow-xl">
           React.js Case Study
