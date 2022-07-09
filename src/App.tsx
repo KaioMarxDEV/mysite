@@ -28,8 +28,8 @@ export function App() {
       </section>
       <div className="flex flex-col items-center drop-shadow-xl">
         <h3 className="my-10 text-center mx-auto font-calis text-5xl text-indigo-800">
-          "Who has a mission, a why, <br />
-          overcomes any how."
+          "In general, I like to be <br />
+          the extra animated one."
         </h3>
       </div>
       <section className="scroll-mt-8" id="education">
