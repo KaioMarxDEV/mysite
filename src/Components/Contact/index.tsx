@@ -88,7 +88,7 @@ export function Contact() {
   }
   
   return (
-    <div className="my-36 max-w-full backdrop-blur-md drop-shadow-md rounded-lg flex flex-col items-center justify-center py-28">
+    <div className="my-24 max-w-full backdrop-blur-md drop-shadow-md rounded-lg flex flex-col items-center justify-center py-28">
       <div className="max-w-[40rem] flex flex-col items-center">
         <strong className="text-4xl text-center leading-6 block">
           Interested{' '} 
@@ -99,7 +99,7 @@ export function Contact() {
         </strong>
         <span className="mt-4 text-xl text-center block">
           On the lookout for a fast learner developer that shows passion in their work? 
-          Are you interested in collaborating? I'd love to hear from you!
+           I'd love to hear from you!
         </span>
         <button onClick={handleModalOpen} className="mt-8 w-1/2 px-8 py-3 cursor-pointer rounded-3xl font-semibold text-center text-my-blue border border-my-blue hover:bg-my-blue hover:text-white hover:border-0 transition">
           Email Me
