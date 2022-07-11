@@ -101,7 +101,7 @@ export function Contact() {
           On the lookout for a fast learner developer that shows passion in their work? 
            I'd love to hear from you!
         </span>
-        <button onClick={handleModalOpen} className="mt-8 w-1/2 px-8 py-3 cursor-pointer rounded-3xl font-semibold text-center text-my-blue border border-my-blue hover:bg-my-blue hover:text-white hover:border-0 transition">
+        <button onClick={handleModalOpen} className="mt-8 w-1/2 px-8 py-3 cursor-pointer rounded-3xl font-semibold text-center text-my-blue border border-my-blue hover:bg-my-blue hover:text-white transition">
           Email Me
         </button>
       </div>

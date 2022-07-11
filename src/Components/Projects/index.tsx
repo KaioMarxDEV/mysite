@@ -3,11 +3,19 @@ import { MouseEvent, useEffect, useState } from "react";
 import ProjectsArr from '../../utils/projects';
 
 export function Projects() {
+  const [modal, setModal] = useState(false)
   const [projects, setProjects] = useState([] as typeof ProjectsArr)
 
+  function handleModalOpen() {
+    setModal(true)
+  }
+
+  function handleModalClose() {
+    setModal(false)
+  }
 
   function handleBannerClick(e: MouseEvent<HTMLButtonElement>) {
-    alert(`Pressinou ai pai, no botao: ${e.currentTarget.id}`)
+    handleModalOpen()
   }
 
   useEffect(() => {
