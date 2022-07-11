@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # navigate into the build output directory
-cd dist
+cd build
 
 git init
 git checkout -b main

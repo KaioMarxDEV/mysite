@@ -26,7 +26,7 @@ export function Projects() {
       </div>
       <div className="mt-14 grid grid-cols-[20rem_20rem_20rem] grid-rows-[13rem_13rem_13rem] gap-3">
         {projects.map((project) => (
-          <button key={project.id} id={String(project.id)} onClick={handleBannerClick} className="transition-all hover:outline hover:outline-my-blue rounded-lg flex flex-col h-full items-center cursor-pointer">
+          <button key={project.id} id={String(project.id)} onClick={handleBannerClick} className="hover:bg-black transition-all hover:outline hover:outline-my-blue rounded-lg flex flex-col h-full items-center cursor-pointer">
             <div 
               style={{ backgroundImage: `url(${project.img})` }} 
               className="bg-cover w-[20rem] h-[13rem] rounded-lg rounded-b-none"
