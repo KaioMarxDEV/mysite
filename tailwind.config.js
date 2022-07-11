@@ -11,6 +11,7 @@ module.exports = {
       'my-gold-dark': '#FFF200',
       'my-blue': '#0668E1',
       'my-green': '#7EB942',
+      'my-gray': '#f2f3f5',
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,

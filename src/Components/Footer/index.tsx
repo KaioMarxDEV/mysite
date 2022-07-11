@@ -20,7 +20,7 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <span>Built using React.js</span>
+      <span>Built using React.js and Tailwindcss</span>
     </div>
   )
 }
