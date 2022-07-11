@@ -1,10 +1,12 @@
 import { Contact } from "./Components/Contact";
+import { Cultural } from "./Components/Cultural";
 import { Education } from "./Components/Education";
 import { Footer } from "./Components/Footer";
 import { Greetings } from "./Components/Greetings";
 import { Header } from "./Components/Header";
 import { Projects } from "./Components/Projects";
 import { Skills } from "./Components/Skills";
+import { Values } from "./Components/Values";
 
 export function App() {
   return (
@@ -27,13 +29,17 @@ export function App() {
         <Skills />
       </section>
       <div className="flex flex-row items-center justify-between drop-shadow-xl">
-        <div className="h-2 w-1/3 bg-gray-500 rounded-sm" />
         <h3 className="w-full my-10 text-center mx-auto font-calis text-5xl text-indigo-800">
-          "In general, I like to be <br />
-          the extra animated one."
+          "Work is not about being a star,<br /> 
+          it is about being a team player."
         </h3>
-        <div className="h-2 w-1/3 bg-gray-500 rounded-sm" />
       </div>
+      <section className="scroll-mt-8" id="values">
+        <Values />
+      </section>
+      <section className="scroll-mt-8" id="cultural">
+        <Cultural />
+      </section>
       <section className="scroll-mt-8" id="education">
         <Education />
       </section>
