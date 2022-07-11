@@ -31,7 +31,7 @@ export function Skills() {
         </span>
       </div>
       <div className="w-full flex flex-row justify-around">
-        <div className="w-1/4 border border-my-gold drop-shadow-lg py-4 px-12 items-center bg-white rounded-lg flex flex-col">
+        <div className="w-1/4 transition-all  hover:outline cursor-pointer hover:outline-my-gold drop-shadow-lg py-4 px-12 items-center bg-white rounded-lg flex flex-col">
           <img className="mb-1 text-my-gold w-16 h-16" src={codingSVG} alt="Icon" />
           <h3 className="font-bold text-xl text-black mb-6">
             Back end Skills
@@ -48,7 +48,7 @@ export function Skills() {
             ))}
           </ul>
         </div>
-        <div className="w-1/4 border border-my-blue drop-shadow-lg py-4 px-12 items-center bg-white rounded-lg flex flex-col">
+        <div className="w-1/4 transition-all  hover:outline cursor-pointer hover:outline-my-blue drop-shadow-lg py-4 px-12 items-center bg-white rounded-lg flex flex-col">
           <img className="mb-1 text-my-blue w-16 h-16" src={illustrationSVG} alt="Icon" />
           <h3 className="font-bold text-xl text-black mb-6">
             Front end Skills
@@ -65,7 +65,7 @@ export function Skills() {
             ))}
           </ul>
         </div>
-        <div className="w-1/4 border border-my-green drop-shadow-lg py-4 px-12 items-center bg-white rounded-lg flex flex-col">
+        <div className="w-1/4 transition-all  hover:outline cursor-pointer hover:outline-my-green drop-shadow-lg py-4 px-12 items-center bg-white rounded-lg flex flex-col">
           <Cloud className="mb-1 text-my-green" size={64} />
           <h3 className="font-bold text-xl text-black mb-6">
             Devops Skills
