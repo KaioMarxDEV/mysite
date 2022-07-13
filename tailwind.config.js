@@ -26,10 +26,5 @@ module.exports = {
       rc: ["Roboto Condensed"],
       calis: ["Calistoga"]
     },
-    extend: {
-      animation: {
-        "one-spin": "one-spin 0.3s linear",
-      },
-    },
   },
 };
