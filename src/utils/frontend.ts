@@ -7,5 +7,6 @@ export default [
   {id: 6, name: 'Typescript'},
   {id: 7, name: 'HTML, CSS'},
   {id: 8, name: 'CMS'},
-  {id: 9, name: 'Unit Test'}
+  {id: 9, name: 'Unit Test'},
+  {id: 10, name: 'Tailwindcss'},
 ]
