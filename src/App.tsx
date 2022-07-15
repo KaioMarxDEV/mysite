@@ -17,18 +17,18 @@ export function App() {
         <Greetings />
       </section>
       <div className="mt-56 flex flex-row items-center justify-between drop-shadow-xl">
-        <div className="h-2 w-1/3 bg-gray-500 rounded-sm" />
-        <h3 className="w-full text-center font-calis text-5xl text-indigo-800">
+        <div className="h-1 w-1/3 bg-gray-500 rounded-sm" />
+        <h3 className="w-full text-center font-calis text-5xl text-my-blue/75">
           "Do what you LOVE<br />
           and love what you do"
         </h3>
-        <div className="h-2 w-1/3 bg-gray-500 rounded-sm" />
+        <div className="h-1 w-1/3 bg-gray-500 rounded-sm" />
       </div>
       <section className="scroll-mt-8" id="skills">
         <Skills />
       </section>
       <div className="flex flex-row items-center justify-between drop-shadow-xl">
-        <h3 className="w-full my-10 text-center mx-auto font-calis text-5xl text-indigo-800">
+        <h3 className="w-full my-10 text-center mx-auto font-calis text-5xl text-my-blue/75">
           "Work is not about being a star,<br /> 
           it is about being a team player."
         </h3>
@@ -40,7 +40,7 @@ export function App() {
         <Cultural />
       </section>
       <div className="flex flex-col items-center rounded-lg drop-shadow-xl">
-        <h3 className="my-10 text-center mx-auto font-calis text-5xl text-indigo-800">
+        <h3 className="my-10 text-center mx-auto font-calis text-5xl text-my-blue/75">
           "You cannot build a reputation on what<br />
           you are going to do."
         </h3>
