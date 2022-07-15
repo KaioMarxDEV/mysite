@@ -7,24 +7,24 @@ export function Header() {
         {'<'}Welcome{'>'}
       </h1>
       <div className="flex flex-row items-center">
-        <ul className="m-0 p-0 list-none overflow-hidden bg-transparent">
-          <li className="float-left mr-4 block px-4 py-2">
-            <a href="#home" className=" text-gray-900 hover:font-bold hover:text-my-blue">
+        <ul className="m-0 p-0 list-none flex bg-transparent">
+          <li className="float-left mr-4 block">
+            <a href="#home" className=" text-gray-900 hover:bg-my-blue transition hover:text-white rounded-full px-4 py-2 h-full w-full">
               Home
             </a>
           </li>
-          <li className="float-left mr-4 block px-4 py-2">
-            <a href="#skills" className="text-gray-900 hover:font-bold hover:text-my-blue">
+          <li className="float-left mr-4 block">
+            <a href="#skills" className="text-gray-900 hover:bg-my-blue transition hover:text-white rounded-full px-4 py-2 h-full w-full">
               Skills
             </a>
           </li>
-          <li className="float-left mr-4 block px-4 py-2">
-            <a href="#projects" className=" text-gray-900 hover:font-bold hover:text-my-blue">
+          <li className="float-left mr-4 block">
+            <a href="#projects" className=" text-gray-900 hover:bg-my-blue transition hover:text-white rounded-full px-4 py-2 h-full w-full">
               Projects
             </a>
           </li>
-          <li className="float-left mr-4 block px-4 py-2">
-            <a href="#socials" className=" text-gray-900 hover:font-bold hover:text-my-blue">
+          <li className="float-left mr-4 block">
+            <a href="#socials" className=" text-gray-900 hover:bg-my-blue transition hover:text-white rounded-full px-4 py-2 h-full w-full">
               Socials
             </a>
           </li>
