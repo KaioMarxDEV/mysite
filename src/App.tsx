@@ -1,6 +1,5 @@
 import { Contact } from "./Components/Contact";
 import { Cultural } from "./Components/Cultural";
-import { Education } from "./Components/Education";
 import { Footer } from "./Components/Footer";
 import { Greetings } from "./Components/Greetings";
 import { Header } from "./Components/Header";
@@ -39,9 +38,6 @@ export function App() {
       </section>
       <section className="scroll-mt-8" id="cultural">
         <Cultural />
-      </section>
-      <section className="scroll-mt-8" id="education">
-        <Education />
       </section>
       <div className="flex flex-col items-center rounded-lg drop-shadow-xl">
         <h3 className="my-10 text-center mx-auto font-calis text-5xl text-indigo-800">
