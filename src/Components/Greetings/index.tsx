@@ -1,6 +1,5 @@
-import { DownloadSimple, HandWaving } from "phosphor-react";
+import { HandWaving } from "phosphor-react";
 
-import Resume from '../../Assets/kaio-resume.pdf';
 import kaio from '../../Assets/kaio.jpeg';
 
 export function Greetings() {
@@ -14,19 +13,10 @@ export function Greetings() {
         <h1 className="text-6xl my-4 text-black font-lob drop-shadow-xl">a Front-end Developer based in Brazil</h1>
         <span className="text-gray-900 text-2xl">I am passionate about creating usable digital experiences that are impactful, enjoyable, and easy to use.</span>
         <div className="mt-8 flex flex-row justify-center items-center">
-        <a
-          href={Resume}
-          download
-          target={"_blank"}
-          className="flex w-full items-center justify-center rounded-lg drop-shadow-md bg-gradient-to-r from-my-gold to-my-gold-dark py-[10px] px-[40px] text-gray-700 hover:text-gray-900  hover:shadow-[0px_0px_10px] hover:shadow-[#FFB400]"
-        >
-          <span className="mr-3 text-[14px] font-semibold">DOWNLOAD CV</span>
-          <DownloadSimple size={16} />
-        </a>
         </div>
       </div>
       <div>
-        <img className="w-[28rem] h-[28rem] rounded-full drop-shadow-2xl" src={kaio} alt="kaio's 3d picture"/>
+        <img className="rounded-full w-80 h-80 drop-shadow-2xl" src={kaio} alt="kaio's 3d picture"/>
       </div>
     </div>
   )
